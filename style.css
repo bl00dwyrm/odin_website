@@ -68,6 +68,7 @@ a {
     border: 0px;
     border-radius: .5rem;
     color: #e5e7eb;
+    font-weight: 700;
 }
 .bg1 {
     display: flex;
@@ -83,7 +84,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 400px;
 }
 .info_wrapper {
     display: flex;
@@ -114,8 +114,94 @@ a {
     width: 146px;
     text-align: center;
     padding-top: .5rem;
+    padding-bottom: 4rem;
 }
 .info_text p {
     font-size: 14px;
     color: #1f2937;
 }
+
+/* Qoute banner */
+.quote_w {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    width: 100vw;
+    height: 400px;
+}
+.quote_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.top {
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+}
+.bottom {
+    padding-top: .4rem;
+    align-self: flex-end;
+    font-weight: 900;
+    color: #1f2937;
+    
+}
+
+/* CTA banner */
+.cta_banner {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+}
+.cta_container_w {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 4rem;
+    width: 900px;
+    border-radius: 1rem;
+}
+.cta_container {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+.cta_text_top {
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: .1rem;
+}
+.cta_text_bottom {
+    font-size: 14px;
+}
+.cta_2 {
+    margin-top: .8rem;
+    background-color: #3882f6;
+    padding: .5rem 1.5rem;
+    border: 2px solid #e5e7eb;
+    border-radius: .5rem;
+    color: #e5e7eb;
+    font-weight: 700;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 125px;
+    width: 100vw;
+}
+
