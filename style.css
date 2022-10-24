@@ -13,7 +13,7 @@ ul {
 a { 
     text-decoration: none;
 }
-
+/* !NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -31,4 +31,50 @@ a {
 .menu > li a {
     padding: 0rem 1rem;
     color: #f9faf8;
+}
+
+/* HERO SECTION */
+
+.hero_w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    padding: 0rem 4rem;
+}
+.container > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.container > h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.cta_1 {
+    margin-top: .8rem;
+    background-color: #3882f6;
+    padding: .5rem 1.5rem;
+    border: 0px;
+    border-radius: .5rem;
+    color: #e5e7eb;
+}
+
+
+
+
+.bg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e6875;
 }
